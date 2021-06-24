@@ -19,33 +19,8 @@ setwd(directory)
 
 
 
+genes<-readLines("Genes.txt")  ### old way, use this if you want to have all genes in the concatenated tree
 
-
-gene_file=read.table(paste0("Alignments_info_2021_","Sample_",args[2],".txt"),header=TRUE,sep="\t")
-
-genes=c()
-
-for (i in 1:dim(gene_file)[1]){
-
-COMPLETENESS= (as.numeric(gene_file[i,4]) / as.numeric(gene_file[i,3]))
-if (COMPLETENESS>=as.numeric(args[3])){
-    genes=c(genes,as.character(gene_file[i,2]))
-    print(paste0("Acceptable Gene: ",as.character(gene_file[i,2])," with missingness: ",as.character(1-COMPLETENESS)))
-}
-
-}
-
-print("Acceptable Genes, above cut off")
-print(genes)
-write(genes, file = "Concatenated_Proteins.txt")
-print(as.numeric(args[3]))
-
-
-
-
-##
-##### genes<-readLines("Genes.txt")  ### old way, use this if you want to have all genes in the concatenated tree
-##
 
 
 
