@@ -1,0 +1,2 @@
+Sample_name	Gene_name	Total_sites	Sites_in_ancient	Segregating_sites	a_Segregating_sites	Non_singletons	a_Non_singletons	Unique_ancient_sites	File_name
+H_antecessor	ENAM	1142	263	160	32	38	8	1	ENAM_aligned.fa
