@@ -98,13 +98,13 @@ Rscript Scripts/DataR3.r Neanderthal_ENAM_spliced.blast ENAM Neanderthal
 
 # Instructions for use
 
-The step-by-step process for the usage of the scripts is fully described in Taurozzi A. *et al*. in prep. 
+The step-by-step process for the usage of the scripts is fully described in Taurozzi A. et al 2024.
 
 # Citation
 
 For usage of these scripts cite the following manuscript:
 
-Deep-time phylogenetic inference by palaeoproteomic analysis of dental enamel. Taurozzi A. *et al 2024*
+Deep-time phylogenetic inference by palaeoproteomic analysis of dental enamel. Taurozzi A. et al 2024.
 
 
 
