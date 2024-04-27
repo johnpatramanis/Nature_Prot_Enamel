@@ -104,7 +104,7 @@ The step-by-step process for the usage of the scripts is fully described in Taur
 
 For usage of these scripts cite the following manuscript:
 
-Deep-time phylogenetic inference by palaeoproteomic analysis of dental enamel. Taurozzi A. *et al*. in prep (to be edited upon publication)
+Deep-time phylogenetic inference by palaeoproteomic analysis of dental enamel. Taurozzi A. *et al 2024*
 
 
 
